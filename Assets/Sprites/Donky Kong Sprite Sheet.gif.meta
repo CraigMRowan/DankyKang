@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: c6cd60fa63abf414c9db37db3f72143e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5909589930598589257
+    second: Donky Kong Sprite Sheet_0
+  - first:
+      213: -2607990067069880810
+    second: Donky Kong Sprite Sheet_1
+  - first:
+      213: 8613065238294045538
+    second: Donky Kong Sprite Sheet_2
+  - first:
+      213: 2296075416080165302
+    second: Donky Kong Sprite Sheet_3
+  - first:
+      213: -1045270189629034989
+    second: Donky Kong Sprite Sheet_4
+  - first:
+      213: 5816863633492512210
+    second: Donky Kong Sprite Sheet_5
+  - first:
+      213: -1896683441282246759
+    second: Donky Kong Sprite Sheet_6
+  - first:
+      213: -3477355222576390871
+    second: Donky Kong Sprite Sheet_7
+  - first:
+      213: 1184262271399239803
+    second: Donky Kong Sprite Sheet_8
+  - first:
+      213: -5987849780103194651
+    second: Donky Kong Sprite Sheet_9
+  - first:
+      213: 3931553558816970932
+    second: Donky Kong Sprite Sheet_10
+  - first:
+      213: 567997271452879478
+    second: Donky Kong Sprite Sheet_11
+  - first:
+      213: -9080267330120053285
+    second: Donky Kong Sprite Sheet_12
+  - first:
+      213: 4602097382053552885
+    second: Donky Kong Sprite Sheet_13
+  - first:
+      213: -1393014219761592576
+    second: Donky Kong Sprite Sheet_14
+  - first:
+      213: 6694864483973668333
+    second: Donky Kong Sprite Sheet_15
+  - first:
+      213: -8034366770566365529
+    second: Donky Kong Sprite Sheet_16
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 41
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943ed854bb4130250800000000000000
+      internalID: 5909589930598589257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 40
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6167d8a0ade8ecbd0800000000000000
+      internalID: -2607990067069880810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 40
+        width: 46
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26328c34331c78770800000000000000
+      internalID: 8613065238294045538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 42
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b927f00d6c4ddf10800000000000000
+      internalID: 2296075416080165302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 41
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e2bd4fc447e71f0800000000000000
+      internalID: -1045270189629034989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 41
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd8535d7a6a9b050800000000000000
+      internalID: 5816863633492512210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997910f8570ada5e0800000000000000
+      internalID: -1896683441282246759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 43
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d1c7059d3fdbfc0800000000000000
+      internalID: -3477355222576390871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 10
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7026a7e2485f6010800000000000000
+      internalID: 1184262271399239803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 11
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e75c889952e6eca0800000000000000
+      internalID: -5987849780103194651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 11
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b855b8a12faf8630800000000000000
+      internalID: 3931553558816970932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 11
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a075e428ee1e700800000000000000
+      internalID: 567997271452879478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 11
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd0c9af8f86cf180800000000000000
+      internalID: -9080267330120053285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 12
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2ae0f9f2feddf30800000000000000
+      internalID: 4602097382053552885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007da0892f40bace0800000000000000
+      internalID: -1393014219761592576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 10
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded11aaf6cfe8ec50800000000000000
+      internalID: 6694864483973668333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Donky Kong Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 10
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae70357df1308090800000000000000
+      internalID: -8034366770566365529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
