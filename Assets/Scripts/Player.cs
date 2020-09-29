@@ -4,6 +4,7 @@ public class Player : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 0f;
     [SerializeField] private float jumpForce = 0f;
+    [SerializeField] private LayerMask floorLayerMask = default;
 
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _spriteRenderer;
@@ -42,7 +43,7 @@ public class Player : MonoBehaviour
 
     private bool IsGrounded()
     {
-        var hit = Physics2D.Raycast(transform.position + new Vector3(0, -0.1f, 0), Vector2.down, 0.2f);
+        var hit = Physics2D.Raycast(transform.position + new Vector3(0, -0.2f, 0), Vector2.down, 0.33f, floorLayerMask);
         return hit.collider != null;
     }
 }
