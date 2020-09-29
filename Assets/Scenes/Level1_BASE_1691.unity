@@ -2047,6 +2047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barrel: {fileID: 8404072378927942004, guid: df87871a3f3bc4e6faf927915370244c, type: 3}
+  stopSpawning: 0
   spawnTime: 2
   spawnDelay: 3
   barrelForce: 3
@@ -2359,7 +2360,7 @@ PrefabInstance:
     - target: {fileID: 2577321282918520148, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 6200000, guid: f9f63e4a588c244cd9323868e23bcfa3, type: 2}
+      objectReference: {fileID: 6200000, guid: 040af7b7bb2c34d35b5db97286ad1c75, type: 2}
     - target: {fileID: 2577321282918520150, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.88
@@ -2407,23 +2408,7 @@ PrefabInstance:
     - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 6200000, guid: f9f63e4a588c244cd9323868e23bcfa3, type: 2}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.029789686
-      objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Size.x
-      value: 0.5595794
-      objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Size.y
-      value: 1
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 6200000, guid: 040af7b7bb2c34d35b5db97286ad1c75, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
 --- !u!1001 &2999172344842296403
@@ -2433,14 +2418,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2999172343247411442, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.05713749
-      objectReference: {fileID: 0}
-    - target: {fileID: 2999172343247411442, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.6788864
-      objectReference: {fileID: 0}
     - target: {fileID: 2999172343259897800, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
       propertyPath: m_Name
       value: Cameras
