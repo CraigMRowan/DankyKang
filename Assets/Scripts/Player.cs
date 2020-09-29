@@ -1,43 +1,48 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.SceneManagement;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float moveSpeed;
-    public float jumpForce;
-    private Rigidbody2D rigidBody;
-    private SpriteRenderer spriteRenderer;
+    [SerializeField] private float moveSpeed = 0f;
+    [SerializeField] private float jumpForce = 0f;
+
+    private Rigidbody2D _rigidBody;
+    private SpriteRenderer _spriteRenderer;
+    private Animator _myAnimator;
+
+    private static readonly int IsMoving = Animator.StringToHash("IsMoving");
 
     private void Start()
     {
-        rigidBody = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        _rigidBody = GetComponent<Rigidbody2D>();
+        _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        _myAnimator = GetComponent<Animator>();
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        float xInput = Input.GetAxis("Horizontal");
-        rigidBody.velocity = new Vector2(xInput * moveSpeed, rigidBody.velocity.y);
+        var xInput = Input.GetAxis("Horizontal");
+        _rigidBody.velocity = new Vector2(xInput * moveSpeed, _rigidBody.velocity.y);
+
+        var statusHorizontal = Input.GetButton("Horizontal");
+        _myAnimator.SetBool(IsMoving, statusHorizontal);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         //if (Input.GetKeyDown(KeyCode.UpArrow))
         if (Input.GetButtonDown("Jump") && IsGrounded())
-            rigidBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            _rigidBody.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
 
-        if (rigidBody.velocity.x > 0)
-            spriteRenderer.flipX = false;
-        else if (rigidBody.velocity.x < 0)
-            spriteRenderer.flipX = true;
+        if (_rigidBody.velocity.x > 0)
+            _spriteRenderer.flipX = false;
+        else if (_rigidBody.velocity.x < 0)
+            _spriteRenderer.flipX = true;
     }
 
-    bool IsGrounded()
+    private bool IsGrounded()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position + new Vector3(0, -0.1f, 0), Vector2.down, 0.2f);
+        var hit = Physics2D.Raycast(transform.position + new Vector3(0, -0.1f, 0), Vector2.down, 0.2f);
         return hit.collider != null;
     }
 }

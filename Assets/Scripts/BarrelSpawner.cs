@@ -1,27 +1,28 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BarrelSpawner : MonoBehaviour
 {
-    public GameObject barrel;
-    public bool stopSpawning = false;
-    public float spawnTime;
-    public float spawnDelay;
-    public float barrelForce;
+    [SerializeField] private GameObject barrel = null;
+    [SerializeField] private float spawnTime = 0f;
+    [SerializeField] private float spawnDelay = 0f;
+    [SerializeField] private float barrelForce = 0f;
 
-    void Start()
+    private bool _stopSpawning = false;
+
+    private void Start()
     {
-        InvokeRepeating("SpawnBarrel", spawnTime, spawnDelay);
+        InvokeRepeating(nameof(SpawnBarrel), spawnTime, spawnDelay);
     }
 
-    void SpawnBarrel()
+    private void SpawnBarrel()
     {
-        GameObject cloneBarrel = (GameObject)Instantiate(barrel, transform.position, transform.rotation);
-        Rigidbody2D rigidbody2D = cloneBarrel.GetComponent<Rigidbody2D>();
-        rigidbody2D.velocity = Vector3.right * barrelForce;
+        var transform1 = transform;
 
-        if (stopSpawning)
-            CancelInvoke("SpawnBarrel");
+        var cloneBarrel = Instantiate(barrel, transform1.position, transform1.rotation);
+        var localRigidbody2D = cloneBarrel.GetComponent<Rigidbody2D>();
+        localRigidbody2D.velocity = Vector3.right * barrelForce;
+
+        if (_stopSpawning)
+            CancelInvoke(nameof(SpawnBarrel));
     }
 }
