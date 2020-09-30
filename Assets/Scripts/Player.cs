@@ -73,9 +73,16 @@ public class Player : MonoBehaviour
                 //TODO: Return to main menu
             }
         }
+
+        if (collision.gameObject.CompareTag("PrincessPeach"))
+        {
+            SceneManager.LoadScene("Level1"); //Temporary
+            //TODO: Success Message
+            //TODO: Return to main menu
+        }
     }
 
-    public void RemoveLifeImage()
+    private void RemoveLifeImage()
     {
         _lifeImages[_currentLives - 1].gameObject.SetActive(false);
     }
