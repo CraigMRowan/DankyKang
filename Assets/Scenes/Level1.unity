@@ -491,30 +491,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &226387095 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2577321282918520144, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-  m_PrefabInstance: {fileID: 2577321283397464227}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &226387096
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 226387095}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 920d1162b6564914fa0ec7a12c4445d3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &375979946
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,26 +2622,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520148, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: f9f63e4a588c244cd9323868e23bcfa3, type: 2}
-    - target: {fileID: 2577321282918520149, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: lives
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520149, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: life1
-      value: 
-      objectReference: {fileID: 791167450}
-    - target: {fileID: 2577321282918520149, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: life2
-      value: 
-      objectReference: {fileID: 969290299}
-    - target: {fileID: 2577321282918520149, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: life3
-      value: 
-      objectReference: {fileID: 1772129813}
     - target: {fileID: 2577321282918520149, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
       propertyPath: livesPanel
       value: 
@@ -2713,26 +2669,6 @@ PrefabInstance:
     - target: {fileID: 2577321282918520150, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: f9f63e4a588c244cd9323868e23bcfa3, type: 2}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.029789686
-      objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Size.x
-      value: 0.5595794
-      objectReference: {fileID: 0}
-    - target: {fileID: 2577321282918520151, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
-      propertyPath: m_Size.y
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
@@ -2803,6 +2739,14 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 1449430883}
+    - target: {fileID: 2999172344448876145, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 2999172344448876145, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9400005
+      objectReference: {fileID: 0}
     - target: {fileID: 2999172344448876151, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
       propertyPath: m_BoundingShape2D
       value: 
