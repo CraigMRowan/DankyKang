@@ -2626,6 +2626,10 @@ PrefabInstance:
       propertyPath: livesPanel
       value: 
       objectReference: {fileID: 85074451}
+    - target: {fileID: 2577321282918520149, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
+      propertyPath: barrelSpawner
+      value: 
+      objectReference: {fileID: 1964976213}
     - target: {fileID: 2577321282918520150, guid: 7ab69905458d5406890750497abc5ba0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.88
@@ -2681,11 +2685,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2999172343247411442, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.05713749
+      value: -0.06744671
       objectReference: {fileID: 0}
     - target: {fileID: 2999172343247411442, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.6788864
+      value: 4.678867
       objectReference: {fileID: 0}
     - target: {fileID: 2999172343259897800, guid: d1ab44f940b166f4b9984d8eec8e20e8, type: 3}
       propertyPath: m_Name

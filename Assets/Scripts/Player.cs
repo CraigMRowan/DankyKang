@@ -8,7 +8,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float jumpForce = 0f;
     [SerializeField] private LayerMask floorLayerMask = default;
     [SerializeField] private GameObject livesPanel = null;
+    [SerializeField] private GameObject barrelSpawner = null;
 
+    private Vector3 _startPosition;
     private Rigidbody2D _rigidBody;
     private SpriteRenderer _spriteRenderer;
     private Animator _myAnimator;
@@ -19,6 +21,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
+        _startPosition = transform.position;
         _rigidBody = GetComponent<Rigidbody2D>();
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         _myAnimator = GetComponent<Animator>();
@@ -59,9 +62,9 @@ public class Player : MonoBehaviour
             {
                 RemoveLifeImage();
                 _currentLives--;
-                
-                //TODO: Move Player back to start
-                //TODO: Destroy Barrels?
+                transform.position = _startPosition;
+                DestroyBarrels();
+
             }
             else
             {
@@ -85,5 +88,12 @@ public class Player : MonoBehaviour
     private void RemoveLifeImage()
     {
         _lifeImages[_currentLives - 1].gameObject.SetActive(false);
+    }
+
+    private void DestroyBarrels()
+    {
+        foreach (Transform child in barrelSpawner.transform) {
+            GameObject.Destroy(child.gameObject);
+        }
     }
 }
