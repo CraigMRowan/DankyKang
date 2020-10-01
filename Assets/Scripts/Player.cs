@@ -60,16 +60,13 @@ public class Player : MonoBehaviour
         {
             if (_currentLives > 1 )
             {
-                RemoveLifeImage();
-                _currentLives--;
+                RemoveLife();
                 transform.position = _startPosition;
                 DestroyBarrels();
-
             }
             else
             {
-                RemoveLifeImage();
-                _currentLives--;
+                RemoveLife();
 
                 SceneManager.LoadScene("Level1"); //Temporary
                 //TODO: Game over
@@ -85,8 +82,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void RemoveLifeImage()
+    private void RemoveLife()
     {
+        _currentLives--;
         _lifeImages[_currentLives - 1].gameObject.SetActive(false);
     }
 
