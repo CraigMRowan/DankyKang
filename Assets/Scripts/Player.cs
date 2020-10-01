@@ -84,8 +84,8 @@ public class Player : MonoBehaviour
 
     private void RemoveLife()
     {
-        _currentLives--;
         _lifeImages[_currentLives - 1].gameObject.SetActive(false);
+        _currentLives--;
     }
 
     private void DestroyBarrels()
